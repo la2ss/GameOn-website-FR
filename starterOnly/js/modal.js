@@ -21,3 +21,9 @@ function launchModal() {
 }
 
 
+// TODO 1 fermer la modale avec le bouton X en haut a droite (Évènement click utilise)
+const modalBtnX = document.querySelector(".close");
+
+modalBtnX.addEventListener("click", function() {    
+  modalbg.style.display = "none";                        
+});
